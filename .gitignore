@@ -1,0 +1,20 @@
+# Arquivos de sistema operacional (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor Visual Studio Code
+# Mantém as configurações do seu editor fora do projeto compartilhado.
+.vscode/
+
+# Arquivos compactados e builds
+# O arquivo .zip deve ser publicado na seção de "Releases", não no código-fonte.
+*.zip
+
+# Arquivos de log (uma boa prática para o futuro)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pastas de dependências (exemplo para projetos futuros com Node.js)
+# node_modules/
