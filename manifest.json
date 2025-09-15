@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Estilizador de Páginas",
+    "version": "1.0.0",
+    "description": "Uma extensão simples para destacar links em qualquer página da web.",
+
+    "action": {
+        "default_title": "Estilizador de Páginas",
+        "default_popup": "src/popup/popup.html"
+    },
+    "background": {
+        "service_worker": "src/background/service-worker.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
